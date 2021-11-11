@@ -1,0 +1,1107 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  padding: 0px;
+  margin: 0px;
+    
+}
+.header{
+   display: flex;
+   border: 1px solid gray;
+   padding: 15px;
+}
+.logo{
+    margin-left: 2em;
+}
+.menu ul li{
+    margin-left: 2em;
+    align-items: center;
+    text-align: center;
+   display: inline;
+   color: white;
+   cursor: pointer;
+   font-size: 15px;
+   font-family: cursive;
+}
+.menu ul li:hover{
+color: #03a846;
+}
+.registration{
+    padding: 15px 40px;
+    border-radius: 1em;
+    background-color: #03a846;
+    float: left;
+    margin-left: 35em;
+    cursor: pointer;
+    border: none;
+}
+.banner{
+    margin-top: -7em;
+    background-image: url(https://template.hasthemes.com/finate/finate/assets/img/slider/slider-bg.webp);
+}
+.banner{
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding-top: 10em;
+  font-family: cursive;
+}
+.writeup1{
+    padding: 10px;
+    text-transform: capitalize;
+    background-color: gray;
+    text-align: center;
+    align-items: center;
+   margin-left: 25em;
+   margin-right: 25em;
+}
+.writeup2{
+    text-transform: capitalize;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+}
+.fill{
+    display: flex;
+    margin-left: 25em;
+}
+input[type=text]{
+    width: 260px;
+    border-radius: 5px;
+    margin-right: 1em;
+}
+select{
+    margin-right: 1em;
+    border-radius: 1em;
+    width: 260px;
+    color: #656565;
+}
+::placeholder{
+    color: #656565;
+    font-size: 15px;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+.searchicon{
+    padding: 20px 30px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: green;
+    cursor: pointer;
+}
+
+.playicon{
+margin: 20em 0px 0px 0px;
+color: rgb(35, 233, 35);
+}
+.banner2{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+    margin-top: -2em;
+} 
+.banner2writeup{
+padding-top: 6em;
+}
+.flexwrap{
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-around;
+} 
+.banner2writeup2a{
+    padding: 15px 30px;
+    border: 1px solid skyblue;
+    background-color: rgb(206, 230, 240);
+    border-radius: 2em;
+    cursor: pointer;
+}
+.banner2writeup2b{
+    padding: 15px 30px;
+    border: 1px solid skyblue;
+    background-color: rgb(206, 230, 240);
+    border-radius: 2em;
+    cursor: pointer;
+}
+.banner2writeup2c{
+    padding: 15px 30px;
+    border: 1px solid skyblue;
+    background-color: rgb(206, 230, 240);
+    border-radius: 2em;
+    cursor: pointer;
+}
+.banner2writeup2d{
+    padding: 15px 30px;
+    border: 1px solid skyblue;
+    background-color: rgb(206, 230, 240);
+    border-radius: 2em;
+    cursor: pointer;
+}
+.flexwrap2{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+} 
+.banner2writeup2e{
+    padding: 15px 30px;
+    border: 1px solid skyblue;
+    background-color: rgb(206, 230, 240);
+    border-radius: 2em;
+    cursor: pointer;
+}
+.banner2writeup2f{
+    padding: 15px 30px;
+    border: 1px solid skyblue;
+    background-color: rgb(206, 230, 240);
+    border-radius: 2em;
+    cursor: pointer;
+}
+.banner2writeup2g{
+    padding: 15px 30px;
+    border: 1px solid skyblue;
+    background-color: rgb(206, 230, 240);
+    border-radius: 2em;
+    cursor: pointer;
+}
+.banner2writeup2h{
+    padding: 15px 30px;
+    border: 1px solid skyblue;
+    background-color: rgb(206, 230, 240);
+    border-radius: 2em;
+    cursor: pointer;
+}
+.flexwrap3{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+} 
+.banner2writeup2i{
+    padding: 15px 30px;
+    border: 1px solid skyblue;
+    background-color: rgb(206, 230, 240);
+    border-radius: 2em;
+    cursor: pointer;
+}
+.banner2writeup2j{
+    padding: 15px 30px;
+    border: 1px solid skyblue;
+    background-color: rgb(206, 230, 240);
+    border-radius: 2em;
+    cursor: pointer;
+}
+.banner2writeup2k{
+    padding: 15px 30px;
+    border: 1px solid skyblue;
+    background-color: rgb(206, 230, 240);
+    border-radius: 2em;
+    cursor: pointer;
+}
+.banner2writeup2l{
+    padding: 15px 30px;
+    border: 1px solid skyblue;
+    background-color: rgb(206, 230, 240);
+    border-radius: 2em;
+    cursor: pointer;
+}
+.banner3{
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+    margin-top: 2em;
+    padding-top: 5em;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Jost", sans-serif;
+}
+.banner4{
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+    margin-top: -1em;
+    font-family: "Jost", sans-serif;
+}
+.border{
+    margin-top: -1em;
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+.borderwriteup1{
+    padding: 15px 30px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+.borderwriteup2{
+    padding: 15px 30px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.borderwriteup3{
+    padding: 15px 30px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+.ApplyNow{
+    padding: 5px 20px;
+    background-color: white;
+    color: green;
+    cursor: pointer;
+    border: 1px solid green;
+}
+.ApplyNow:hover{
+    background-color: green;
+    color: black;
+}
+.borderwriteup1 h5{
+    color: green;
+}
+.borderwriteup2 h5{
+    color: blue;
+}
+.borderwriteup3 h5{
+    color: green;
+}
+.borderwriteup4 h5{
+    color: blue;
+}
+.borderwriteup5 h5{
+    color: purple;
+}
+.borderwriteup8 h5{
+    color: rgb(235, 130, 10);
+}
+.borderwriteup9 h5{
+    color: rgb(235, 130, 10);
+}
+.borderwriteup7 h5{
+    color: green;
+}
+.borderwriteup6 h5{
+    color: rgb(51, 39, 224);
+}
+.border2{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+.borderwriteup4{
+    padding: 15px 30px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+.borderwriteup5{
+    padding: 15px 30px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.borderwriteup6{
+    padding: 15px 30px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+.border3{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+.borderwriteup7{
+    padding: 15px 30px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 3em;
+}
+.borderwriteup8{
+    padding: 15px 30px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin-bottom: 3em;
+}
+.borderwriteup9{
+    padding: 15px 30px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 3em;
+}
+.banner5{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding-top: 5em;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -1em;
+}
+.banner6{
+    background-color: #03a846;
+    width: 100%;
+    height: 330px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 3em;
+}
+.google{
+    padding: 20px 40px;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    font-weight: 800;
+    cursor: pointer;
+}
+.apple{
+    padding: 20px 40px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    margin: 1em;
+}
+
+.dottedborderwriteup img{
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 20px;
+}
+.dottedborderwriteup img:hover{
+    background-color: green;
+}
+
+.dottedborderwriteup2 img{
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 20px;
+}
+.dottedborderwriteup2 img:hover{
+    background-color: green;
+}
+
+.dottedborderwriteup3 img{
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 20px;
+    
+}
+.dottedborderwriteup3 img:hover{
+    background-color: green;
+}
+.dottedborderwriteup4 img{
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 20px;
+    
+}
+.dottedborderwriteup4 img:hover{
+    background-color: green;
+}
+.dottedborderarrow img:hover{
+   background-color: green;
+}
+.banner5b{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding-top: 5em;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.banner7b{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding-top: 3em;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.banner7{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding-top: 5em;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -1em;
+}
+.banner7border{
+   display: flex;
+   justify-content: space-around;
+   font-family: sans-serif;
+}
+.dottedbanner7writeup{
+    padding: 15px 30px;
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    margin-right: 1em;
+}
+.dottedbanner7writeup:hover{
+    background-color: white;
+}
+.dottedbanner7writeup2{
+    padding: 15px 30px;
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    margin-right: 1em;
+}
+.dottedbanner7writeup2:hover{
+    background-color: white;
+}
+.dottedbanner7writeup3{
+    padding: 15px 30px;
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    margin-right: 1em;
+}
+.dottedbanner7writeup3:hover{
+    background-color: white;
+}
+.dottedbanner7writeup4{
+    padding: 15px 30px;
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+}
+.dottedbanner7writeup4:hover{
+    background-color: white;
+}
+.veiwprofile{
+    padding: 5px 20px;
+    background-color: white;
+    color: green;
+    cursor: pointer;
+    border: 1px solid green;
+}
+.veiwprofile:hover{
+    background-color: green;
+    color: black;
+}
+.dottedbanner7writeup4 h6{
+    color: green;
+}
+.dottedbanner7writeup h6{
+    color: green;
+}
+.dottedbanner7writeup2 h6{
+    color: green;
+}
+.dottedbanner7writeup3 h6{
+    color: green;
+}
+.ratingbox{
+    color: rgb(235, 130, 10);
+}
+.banner8{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: "jost" sans-serif;
+}
+.arrowleft{
+   border: none;
+    border-radius: 3px;
+    padding-top: 5px 10px;
+    background-color: white;
+    cursor: pointer;
+}
+.arrowleft:hover{
+    background-color: green;
+    color: white;
+}
+.arrowright{ 
+    border: none;
+    padding-top: 5px 10px;
+    background-color: white;
+    cursor: pointer;
+}
+.arrowright:hover{
+    background-color: green;
+    color: white;
+}
+.banner8logo{
+font-family: "jost" sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 5em;
+}
+.banner8logos1{
+    opacity: 0.2;
+}
+.banner8logos1:hover{
+    opacity: 1;
+}
+.banner8logos2{
+    opacity: 0.2;
+}
+.banner8logos2:hover{
+    opacity: 1;
+}
+.banner8logos3{
+    opacity: 0.2;
+}
+.banner8logos3:hover{
+    opacity: 1;
+}
+.banner8logos4{
+    opacity: 0.2;
+}
+.banner8logos4:hover{
+    opacity: 1;
+}
+.banner8logos5{
+    opacity: 0.2;
+}
+.banner8logos5:hover{
+    opacity: 1;
+}
+.banner8logos6{
+    opacity: 0.2;
+}
+.banner8logos6:hover{
+    opacity: 1;
+}
+.banner9{
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: sans-serif;
+    width: 100%;
+    height: auto;
+    text-transform: capitalize;
+}
+.banner9 h1{
+    padding-top: 3em;
+}
+.banner9border{
+    display: flex;
+    justify-content: space-around;
+}
+.banner9img{
+    display: flex;
+    margin: 1em;
+}
+.banner9img h2{
+    margin-left: 1em;
+}
+.banner9borderwriteup{
+    border-radius: 9px;
+    background-color: white;
+    margin-left: 6em;
+}
+.ratingbox2{
+   text-align: left;
+   padding-left: 1em;
+   color: orange;
+}
+.banner9borderwriteup:hover{
+background-color: green;
+color: white;
+}
+.banner9borderwriteup2{
+    border-radius: 9px;
+    background-color: white;
+}
+.banner9borderwriteup3{
+    border-radius: 9px;
+    background-color: white;
+    margin-right: 6em;
+}
+.banner9borderwriteup3:hover{
+    background-color: green;
+    color: white;
+    }
+    .banner9borderwriteup2:hover{
+        background-color: green;
+        color: white;
+       }   
+ .banner9borderwriteup3 h5{
+     color: green;
+ }
+ .banner9borderwriteup h5{
+    color: green;
+}
+.banner9borderwriteup2 h5{
+    color: green;
+}
+.banner10{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    text-transform: capitalize;
+    padding-top: 4em;
+}
+.banner10border{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 14em;
+    margin-right: 14em;
+}
+.banner11{
+    background-color: green;
+    height: 200px;
+    width: 100%;
+    color: white;
+    text-transform: capitalize;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2em;
+}
+.banner11 h1{
+    font-size: 45px;
+    font-family: "Jost", sans-serif;
+}
+.subscribebutton{
+    padding: 20px 40px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: -29em;
+}
+.subscribebutton:hover{
+    background-color: green;
+}
+input[type=email]{
+width: 500px;
+padding: 30px 50px;
+border-radius: 5px;
+border: none;
+margin-right: 15em;
+}
+.footer{
+    background-color: #272a33;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family: "Jost", sans-serif;
+    text-transform: capitalize;
+    padding-top: 6em;
+    padding-left: 9em;
+    padding-right: 9em;
+    position: relative;
+    padding-left: 6em;
+    padding-right: 6em;
+}
+.banner12logo i{
+    border: 1px solid white;
+    border-radius: 5em;
+    padding: 15px 20px;
+margin: 5px;
+cursor: pointer;
+}
+.finalfooter{
+    background-color: #272a33;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-family: "Jost", sans-serif;
+    text-transform: capitalize;
+    margin-top: -0.6em;
+}
+.finalfooter h3 i{
+    color: #03a846;
+    opacity: 1;
+}
+.banner12logo i:hover{
+    background-color:  #03a846;
+}
+.finalfooter h3 a{
+    color: #03a846;
+    text-decoration: none;
+}
+.loginlogo{
+    margin-left: 2em;
+}
+.loginmenu ul li{
+    margin-left: 2em;
+    align-items: center;
+    text-align: center;
+   display: inline;
+   color: white;
+   cursor: pointer;
+   font-size: 15px;
+   font-family: cursive;
+}
+.loginmenu ul li:hover{
+color: #03a846;
+}
+.registration{
+    padding: 15px 40px;
+    border-radius: 1em;
+    background-color: #03a846;
+    float: left;
+    margin-left: 35em;
+    cursor: pointer;
+    border: none;
+}
+.loginbanner{
+    margin-top: -7em;
+    background-image: url(https://template.hasthemes.com/finate/finate/assets/img/slider/slider-bg.webp);
+    height: 450px;
+}
+.loginbanner{
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding-top: 10em;
+  font-family: "Jost", sans-serif;
+  text-transform: capitalize;
+}
+.loginbannerwriteup h1{
+    font-size: 50px;
+}
+.loginbannerwriteup p{
+    font-size: 15px;
+    color: #03a846;
+}
+.loginbannerwriteup p a{
+    color: white;
+    text-decoration: none;
+}
+.loginbannerwriteup p a:hover{
+  color: #03a846;
+}
+.loginbanner2{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-around;
+}
+.loginbanner2writeup{
+    border: none;
+    box-sizing: 2em;
+    background-color: #f4f7f7;
+    border-radius: 8px;
+    padding: 48px 70px 51px;
+    margin-top: 3em;
+}
+input[type=subject]{
+    width: 500px;
+    padding: 30px 50px;
+    border-radius: 1em;
+    border: none;
+    margin-top: 1em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+input[type=password]{
+    width: 500px;
+    padding: 30px 50px;
+    border-radius: 1em;
+    border: none;
+    margin-top: 1em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+input[type=checkbox]{
+    margin-left: -27em;
+    margin-top: 2em;
+}
+.signinbutton{
+    padding: 20px 180px;
+    border: 1px solid #03a846;
+    background-color: #03a846;
+    color: white;
+}
+.signinbutton:hover{
+    background-color: white;
+    color: #03a846;
+}
+.loginbanner2writeup p{
+    color: #03a846;
+}
+.loginbanner2writeup h5 a{
+    color: #03a846;
+    text-decoration: none;
+}.loginbanner11{
+    background-color: green;
+    height: 200px;
+    width: 100%;
+    color: white;
+    text-transform: capitalize;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2em;
+}
+.loginbanner11 h1{
+    font-size: 45px;
+    font-family: "Jost", sans-serif;
+}
+.subscribebutton{
+    padding: 20px 40px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: -29em;
+}
+.subscribebutton:hover{
+    background-color: green;
+}
+input[type=email]{
+width: 500px;
+padding: 30px 50px;
+border-radius: 5px;
+border: none;
+margin-right: 15em;
+}
+.loginfooter{
+    background-color: #272a33;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family: "Jost", sans-serif;
+    text-transform: capitalize;
+    padding-top: 6em;
+    padding-left: 9em;
+    padding-right: 9em;
+    position: relative;
+    padding-left: 6em;
+    padding-right: 6em;
+}
+.loginbanner12logo i{
+    border: 1px solid white;
+    border-radius: 5em;
+    padding: 15px 20px;
+margin: 5px;
+cursor: pointer;
+}
+.loginfinalfooter{
+    background-color: #272a33;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-family: "Jost", sans-serif;
+    text-transform: capitalize;
+    margin-top: -0.6em;
+}
+.loginfinalfooter h3 i{
+    color: #03a846;
+    opacity: 1;
+}
+.loginbanner12logo i:hover{
+    background-color:  #03a846;
+}
+.loginfinalfooter h3 a{
+    color: #03a846;
+    text-decoration: none;
+}
+.registrationlogo{
+    margin-left: 2em;
+}
+.registrationmenu ul li{
+    margin-left: 2em;
+    align-items: center;
+    text-align: center;
+   display: inline;
+   color: white;
+   cursor: pointer;
+   font-size: 15px;
+   font-family: cursive;
+}
+.registrationmenu ul li:hover{
+color: #03a846;
+}
+.registration{
+    padding: 15px 40px;
+    border-radius: 1em;
+    background-color: #03a846;
+    float: left;
+    margin-left: 35em;
+    cursor: pointer;
+    border: none;
+}
+.registrationbanner{
+    margin-top: -7em;
+    background-image: url(https://template.hasthemes.com/finate/finate/assets/img/slider/slider-bg.webp);
+    height: 450px;
+}
+.registrationbanner{
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding-top: 10em;
+  font-family: "Jost", sans-serif;
+  text-transform: capitalize;
+}
+.registrationbannerwriteup h1{
+    font-size: 50px;
+}
+.registrationbannerwriteup p{
+    font-size: 15px;
+    color: #03a846;
+}
+.registrationbannerwriteup p a{
+    color: white;
+    text-decoration: none;
+}
+.registrationbannerwriteup p a:hover{
+  color: #03a846;
+}
+.registrationbanner2{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-around;
+}
+.registrationbanner2writeup{
+    border: none;
+    box-sizing: 2em;
+    background-color: #f4f7f7;
+    border-radius: 8px;
+    padding: 48px 70px 51px;
+    margin-top: 3em;
+}
+input[type=subject]{
+    width: 500px;
+    padding: 30px 50px;
+    border-radius: 1em;
+    border: none;
+    margin-top: 1em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+input[type=password]{
+    width: 500px;
+    padding: 30px 50px;
+    border-radius: 1em;
+    border: none;
+    margin-top: 1em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+input[type=checkbox]{
+    margin-left: -27em;
+    margin-top: 2em;
+}
+.signinbutton{
+    padding: 20px 180px;
+    border: 1px solid #03a846;
+    background-color: #03a846;
+    color: white;
+}
+.signinbutton:hover{
+    background-color: white;
+    color: #03a846;
+}
+.registrationbanner2writeup p{
+    color: #03a846;
+}
+.registrationbanner2writeup h5 a{
+    color: #03a846;
+    text-decoration: none;
+}.registrationbanner11{
+    background-color: green;
+    height: 200px;
+    width: 100%;
+    color: white;
+    text-transform: capitalize;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2em;
+}
+.registrationbanner11 h1{
+    font-size: 45px;
+    font-family: "Jost", sans-serif;
+}
+.subscribebutton{
+    padding: 20px 40px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: -29em;
+}
+.subscribebutton:hover{
+    background-color: green;
+}
+input[type=email]{
+width: 500px;
+padding: 30px 50px;
+border-radius: 5px;
+border: none;
+margin-right: 15em;
+}
+.candidate{
+    padding: 14px 30px;
+    background-color: #03a846;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-right: 1em;
+}
+.employer{
+    padding: 14px 30px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.employer:hover{
+    background-color: #03a846;
+    color: white;
+}
+
+
+
+
+
+
